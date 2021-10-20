@@ -1,0 +1,19 @@
+{
+    "name": "matthieuchabot/composer",
+    "description": "Projet quete composer",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MatthieuChabot",
+            "email": "chbt.matthieu@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.3",
+        "gipetto/cowsay": "^1.1"
+    }
+}
